@@ -36,6 +36,11 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .hdr{position:sticky;top:0;z-index:50;background:rgba(247,247,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(23,32,29,.08)}
 .hdr__in{display:flex;align-items:center;gap:1.5rem;height:72px}
 .logo{font:600 1.7rem var(--serif);color:var(--dark);text-decoration:none;margin-right:auto}.logo span{color:var(--sage)}
+.logo img{
+  width:140px;
+  height:auto;
+  display:block;
+}
 .nav{display:none}
 .nav a{color:var(--dark);text-decoration:none;font-size:.9rem;margin-left:1.6rem;position:relative}
 .nav a::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:1px;background:var(--dark);transition:width var(--ease)}
