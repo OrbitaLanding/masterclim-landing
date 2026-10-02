@@ -33,7 +33,7 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .actions{display:flex;flex-wrap:wrap;gap:.8rem;margin:2rem 0 1.2rem}.actions--c{justify-content:center}
 
 /* Header */
-.hdr{position:sticky;top:0;z-index:50;background:rgba(247,247,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(23,32,29,.08)}
+.hdr{position:sticky;top:0;z-index:50;background:#1700B0;border-bottom:1px solid rgba(255,255,255,.15)}
 .hdr__in{display:flex;align-items:center;gap:1.5rem;height:72px}
 .logo{
   font:600 1.7rem var(--serif);
@@ -50,11 +50,11 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
   display:block;
 }
 .nav{display:none}
-.nav a{color:var(--dark);text-decoration:none;font-size:.9rem;margin-left:1.6rem;position:relative}
+.nav a{color:#fff;text-decoration:none;font-size:.9rem;margin-left:1.6rem;position:relative}
 .nav a::after{content:"";position:absolute;left:0;bottom:-4px;width:0;height:1px;background:var(--dark);transition:width var(--ease)}
 .nav a:hover::after{width:100%}
 .burger{width:44px;height:44px;display:grid;place-content:center;gap:6px}
-.burger i{display:block;width:24px;height:1.5px;background:var(--dark);transition:transform var(--ease)}
+.burger i{display:block;width:24px;height:1.5px;background:#fff;transition:transform var(--ease)}
 .burger[aria-expanded=true] i:first-child{transform:translateY(3.7px) rotate(45deg)}
 .burger[aria-expanded=true] i:last-child{transform:translateY(-3.7px) rotate(-45deg)}
 .nav.open{display:flex;flex-direction:column;position:absolute;top:72px;left:0;right:0;background:var(--bg);padding:1rem 1.5rem 1.5rem;border-bottom:1px solid rgba(23,32,29,.1)}
