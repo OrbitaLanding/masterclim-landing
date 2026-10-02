@@ -35,7 +35,15 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 /* Header */
 .hdr{position:sticky;top:0;z-index:50;background:rgba(247,247,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid rgba(23,32,29,.08)}
 .hdr__in{display:flex;align-items:center;gap:1.5rem;height:72px}
-.logo{font:600 1.7rem var(--serif);color:var(--dark);text-decoration:none;margin-right:auto}.logo span{color:var(--sage)}
+.logo{
+  font:600 1.7rem var(--serif);
+  color:var(--dark);
+  text-decoration:none;
+  margin-right:auto;
+  background:#1700B0;
+  padding:6px 10px;
+  border-radius:4px;
+}.logo span{color:var(--sage)}
 .logo img{
   width:140px;
   height:auto;
